@@ -1,7 +1,5 @@
 package com.mrinal.MainApp;
 
-//private final String apiKey="a4d874241emsh4d47dd650112c5dp14e86cjsn493a469bba43";
-
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;
 import org.springframework.http.HttpEntity;
