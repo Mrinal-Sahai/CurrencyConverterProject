@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size:x-large;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 700px;
+    font-size: larger;
+    display: block;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight:bolder;
+
+}
+
+.currency-form .form-group {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.currency-form label {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.currency-form input , select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: solid 2px beige;
+    border-radius: 5px;
+    outline: none;
+    font-size: 30px;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.currency-form input::placeholder {
+    color: #aaa;
+}
+
+.submit-button {
+    background-color: #ff7e5f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #feb47b;
+}
