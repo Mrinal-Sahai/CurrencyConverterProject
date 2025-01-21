@@ -12,8 +12,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class ApiService {
 
 
-//private final String apiKey="3307e02c39msh9f7296532a57aecp1198aajsn1f6c880cd650";
-private final String apiKey="a4d874241emsh4d47dd650112c5dp14e86cjsn493a469bba43";
+//Add your own API key here, this one will not work
+private final String apiKey="14jfuibiubb433ibi4ubiiu";
 
 private final RestTemplate restTemplate;
 private final ObjectMapper objectMapper;
