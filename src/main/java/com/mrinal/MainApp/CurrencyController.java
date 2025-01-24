@@ -13,7 +13,7 @@ public class CurrencyController {
 	 @Autowired
 	    private ApiService apiService;
 
-    @GetMapping("/convert")
+    @GetMapping("/")
     public String showForm() {
         
         return "index";

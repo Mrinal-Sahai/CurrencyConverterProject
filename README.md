@@ -33,6 +33,6 @@ To run this project locally:
 2. Subscribe to Rapid Api's fast price exchange Api  (https://rapidapi.com/apiwizard/api/fast-price-exchange-rates)
 3. Get your own api key and add it in Line 16 of src/main/java/com/mrinal/MainApp/ApiService.java class
 4. Run the Spring Boot app  from   src/main/java/com/mrinal/MainApp/CurrencyConverterApplication.java class
-5. Open http://localhost:8080/convert on yout browser , and enter the base currency and target currency and amount
+5. Open http://localhost:8080/ on yout browser , and enter the base currency and target currency and amount
 6. Press Convert , wait while it processes
 7. It gives you the current exchange rate between currencies and the amount in target currency 
